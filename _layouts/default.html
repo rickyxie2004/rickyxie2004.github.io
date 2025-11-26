@@ -7,6 +7,15 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      /* 自定义样式，调整地图大小 */
+      #mapmyvisitors {
+        width: 100%;  /* 宽度适应父容器 */
+        height: 300px;  /* 设置固定高度 */
+        max-width: 600px; /* 限制最大宽度 */
+        margin: 0 auto;  /* 居中显示 */
+      }
+    </style>
   </head>
 
   <body>
@@ -28,7 +37,8 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+    
+    <!-- MapMyVisitors 插件 -->
     <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=IRkUnj2jxNLYEWGDQl-7OzGyK9d2bFQgr48mXPAOCNc&cl=ffffff&w=a"></script>
   </body>
 </html>
-
