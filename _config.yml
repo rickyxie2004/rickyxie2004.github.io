@@ -22,14 +22,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ricky Xie (谢睿奇)"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/11ea813dbbb92fc73560a3542b29fe5.jpg"
   bio              : "Tsinghua University"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=MGHImwUAAAAJ"
   email            : "ruiqixie.thu@gmail.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Ruiqi-Xie-3"
   uri              :
   bitbucket        :
   codepen          :
